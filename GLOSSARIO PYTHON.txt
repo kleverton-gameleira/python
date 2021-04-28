@@ -1,0 +1,230 @@
+python --version = este comando retorna a versao do python que esta instalada no sistema operacional
+
+****** FUNCOES GERAIS EM PYTHON *******
+
+#comentario de uma linha
+
+"""
+comentario de 
+varias linhas 
+
+"""
+
+***** PEP8 ******
+
+1 - nomes de classes comecam sempre com letras maiusculas e em caso de palavras compostas usar o padrao camel case
+
+2 - nomes de funcoes e variaveis sempre com letras minusculas e em caso de palavras compostas usar underline para separar as palavras
+
+3 - usar a identacao para marcar o bloco, em python nao usamos caracteres para delimitar blocos, a forma de se fazer isso e identando o codigo corretamente
+
+4 - sempre que terminar um bloco de codigo e recomendado deixar duas linhas em branco para iniciar outro bloco de codigo
+
+5 - imports devem ser feitos em linhas separadas
+
+import nome_pacote
+import nome_pacote
+
+ou 
+
+from types nome_pacote import nome_parte_pacote 
+
+from types import{
+	nome_pacote,
+	nome_pacote,     = forma de importacao em casos de necessidade de import de varios pacotes ao mesmo tempo
+	nome_pacote
+	
+}
+
+imports devem vir nas primeiras linhas do programa antes de qualquer outra coisa
+
+6 - evite espaços em expressoes e instrucoes 
+
+7 - sempre que terminar uma instrucao, termine com uma linha em branco, ou seja, separe a proxima instrucao a baixo com uma linha em branco
+
+
+
+***** CONSIDERACOES GERAIS *****
+
+BUG = termo que designa um erro de programação
+
+DEBUGGING = termo que designa o processo de rastreio de um erro de programacao 
+
+*** FUNCOES GERAIS *****
+
+print('mensagem para aprensetar na tela') = a funcao print exibe a mensagem que esta entre aspas na tela ,do sistema
+
+input('mensagem para solicitar algo do usuario') = a funcao input inserir o que foi solicitado ao usuario pela mensagem entre aspas na variavel
+
+type(var) = esta funcao retorna o tipo de dado da variavel passada como parametro
+
+bin(num) = a funcao bin(num) converte o valor numerico passado como parametro para seu equivalente em codigo binario
+
+oct(num) = a funcao oct(num) converte o valor numerico passado como parametro para o seu equivalente em octal
+
+hex(num) = a funcao hex(num) comverte o valor numerico passado como paramtro para o seu equivalente em hexadecimal
+
+dir(var/dado) = retorna todos os atributos e metodos/funcoes que estao disponiveis para serem usados com a variavel
+
+help() = retorna os a documentacao e como usar os atributos e metodos/funcoes disponives para determinado tipo de dado
+
+******* Template String em python *******
+
+print(f'texto {var}') = forma mais moderna de exibir strings no console
+
+***** OPERADORES MATEMATICOS ME PYTHON *****
+
+n1 + n2 = operacao de soma entre os operandos
+
+n1 - n2 = operacao de subtração entre os operandos
+
+n1 * n2 = operacao de multiplicacao entre os operandos
+
+n1 / n2 = operacao de divisao entre os operandos
+
+n1 // n2 = operacao de divisao retornando somente o valor inteiro da divisao entre os operandos
+
+n1 % n2 = operacao de divisao que retorna apenas o resto da divisao entre os operandos
+
+n1 ** n2 = operacao de portenciacao de n1 sobre n2
+
+pow(n1,n2) = o metodo pow() tambem faz a potenciacao dos numeros n1 e n2 ou calcula a raiz quadrada de um numero
+
+int(var) = a funcao int converte o dado que esta na variavel passada em parametro para o formato inteiro
+
+float(var) = a funcao float converte o dado que esta na variavel passada como parametro para o formato ponto flutuante
+
+S
+
+ 
+
+***** PRECEDENCIA ****
+
+1 -  ()
+
+2 -  ** 
+
+3 -  * / // %
+
+4 -  + - 
+
+
+***** FUNCOES NATIVAS PARA STRINGS *****
+
+var.isnumeric() = o metodo isnumeric() verifica se é possivel converter o que foi digitado em um valor numerico
+
+var.isalpha() = o metodo isalpha() verificar se o valor que foi digitado foi é composto por apenas letras 
+
+var.isalnum() =  o metodo isalnum() verificar se o valor que foi digitado é composto de letras e numeros
+
+var.isupper() = o metodo isupper() verificar se tudo o que foi digitado esta em letras maiusculas
+
+var.islower() = o metodo islower() verificar se tudo o que foi digitado esta em letras minusculas
+
+var.isspace() = o metodo isspace() verifica se o que foi digitado so contem espaco em branco
+
+var.isdigit() = o metodo isdigit() verifica se o que foi digitado foi um numero
+
+var.istitle() = o metodo istitle() verificar se a primeira letras da string esta em maiuscula
+
+
+
+
+
+***** UTILIZANDO MODULOS DE PYTHON *****
+
+
+import nome_lib = este comando importa uma biblioteca para ser usada no programa 
+
+from nome_lib import nome_funcao = este comando importa uma funcao especifica de dentro da lib especificada no comando
+
+
+**** MODULO MATH ****
+
+import math: o modulo math contem metodos para calculos matematicos
+
+math.sqrt(num) = este metodo retorna a raiz quadrada do valor da variavel passada como parametro
+
+math.ceil(num) = este metodo retorna o numero arredondado sempre para o primeiro valor inteiro para cima
+
+math.floor(num) = este metodo retorna o numero arredondado sempre para o primeiro valor inteiro para baixo
+
+math.sin(ang) = este metodo calcula o valor do seno do angulo passado como parametro
+
+math.cos(ang) = este metodo calculo o valor do coseno do angulo passado como parametro
+
+math.tan(ang) = este metodo calcula o valor da tangente do angulo passado como parametro
+
+math.hypot(cat_op,cat_ad) = este metodo calcula o valor da hipotenusa de um triangulo retangulo
+
+math.trunc(num) = este metodo faz o trancamento do valor e com isso somente a parte inteira do numero e exibida
+
+math.radians(ang) = o metodo radians converte o valor passado como parametro em um valor radiando.
+
+
+**** MODULO RANDOM ****
+
+random.choice(lista) = o metodo choice de random retorna um valor aleatorio contido dentro da sequencia passada como parametro
+
+random.shuffle(lista) = o metodo shuffle de random embaralha a lista passada como parametro
+
+**** TRABALHANDO COM STRINGS ****
+
+
+*** FATIAMENTO ***
+
+str[incio:final] = retorna apenas os caracteres que estejam compreendidos dentro do intervalo de numero de inicio e final
+
+str[inicio:final:pulo] = retorna os caracteres que estejam compreendidos dentro do intervalo de numeros de inicio e final levando em consideracao o salto
+
+str[:final] = retorna os caracteres que estao desde o inicio da string ate o final
+
+str[inicio:] = retorna os caracteres da string partindo do valor de inicio e indo ate o ultimo caracter da string
+
+str[::-1] = forma de exibir a string invertida em python
+
+
+*** ANALISE ***
+
+
+len(str) = a funcao len() retorna a quantidade de caracteres que a string possui
+
+str.count('e') = a funcao count() conta quantas vezes o caracter passado como parametro se repete dentro da string.
+
+str.find('este') = a funcao find() retorna em que pedaco da string comeca pedaco da string passada como parametro comeca
+
+'string' in str = a funcao in verifica se a string ou caracter existe dentro da variavel ou string e retorna True se sim ou False se não
+
+
+*** TRANSFORMAÇÃO ***
+
+str.replace('e','3') = o metodo replace substitui o caracter passado como primeiro argumeto pelo caracter que foi passado como segundo argumento dentro da string
+
+str.upper() = o metodo upper() coloca todos os caracteres da string em letras maiusculas
+
+str.lower() = o metodo lower() coloca todos os caracteres da string em letras minusculas
+
+str.capitalize() = o metodo capitalize() coloca a primeira letras da cadeia de caracteres em maiuscula deixando o restando da cadeia em minuscula
+
+str.title() =  o metodo title() coloca todas as primeiras letras de todas as palavras da cadeia de caracteres em maiuscula
+
+str.lstrip() = o metodo lstrip() retira todos os espacos em branco do lado esquerdo da string que exitam antes do primeiro caracter
+
+str.rstrip() = o metodo rstrip() retira todos os espacos em branco do lado direito da string que existam depois do ultimo caracter
+
+str.strip() = o metodo strip() remove os espacos em branco no comeco e no final da string deixando apenas os espacos em branco dentro da string
+
+
+*** DIVISAO/JUNCAO ***
+
+str.split() = o metodo split() divide a string e cria uma lista com todos as palavras com base no separador passado como parametro
+
+''.join(str) = o metodo join() pega uma lista e a transforma em uma string separando as palavras com base no parametro passado com ele
+
+
+*** ESTRUTURAS CONDICIONAIS ***
+
+
+
+
+ 
