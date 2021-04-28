@@ -196,6 +196,7 @@ str.find('este') = a funcao find() retorna em que pedaco da string comeca pedaco
 'string' in str = a funcao in verifica se a string ou caracter existe dentro da variavel ou string e retorna True se sim ou False se não
 
 
+
 *** TRANSFORMAÇÃO ***
 
 str.replace('e','3') = o metodo replace substitui o caracter passado como primeiro argumeto pelo caracter que foi passado como segundo argumento dentro da string
@@ -224,7 +225,23 @@ str.split() = o metodo split() divide a string e cria uma lista com todos as pal
 
 *** ESTRUTURAS CONDICIONAIS ***
 
+if condicao:
+    codigo
+elif condicao:
+    codigo
+else:
+    codigo
 
+ **** ESTRUTURAS LOGICAS ****
+
+operando AND operando = o operador AND verifica se os dois operandos tanto da esquerda quanto da direita sao positivos. se sim o resultado returna verdadeiro, se um deles nao for verdadeiro returna falso
+
+operando OR operando = o operador OR verifica se um dos operandos é verdadeiro. se pelo menos deles for verdadeiro returna verdadeiro
+
+NOT True/False = o operador NOT inverte o valor booleano da variavel ou dado onde ele esta sendo aplicado
+
+operando IS condicao = o operador IS é um operador de comparacao, ou seja, ele verifica se o operador e de um determinada forma, ou se a condicao is de
+                       satifaz alguma condicao especifica.
 
 
  
