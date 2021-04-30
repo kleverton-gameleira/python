@@ -243,5 +243,20 @@ NOT True/False = o operador NOT inverte o valor booleano da variavel ou dado ond
 operando IS condicao = o operador IS é um operador de comparacao, ou seja, ele verifica se o operador e de um determinada forma, ou se a condicao is de
                        satifaz alguma condicao especifica.
 
+*** ESTRUTURAS DE REPETICAO/LOOPs ***
 
- 
+ obj = [] / 'str' / range(1.10)
+
+***forma de percorrer todos as posicoes do obj iteravel que foi passado
+
+for ind in obj:
+    codigo
+
+for letra in nome:
+    print(letra)
+
+for item in range(1+10):
+    print(item)
+
+for ind, letra in enumarate(nome):
+    print(f'{ind} = {letra}')           = forma de iterar um array monstrando o valor do indice no objeto iteravel
