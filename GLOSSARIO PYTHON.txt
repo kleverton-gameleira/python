@@ -255,8 +255,28 @@ for ind in obj:
 for letra in nome:
     print(letra)
 
-for item in range(1+10):
+for item in range(1,10):
     print(item)
 
 for ind, letra in enumarate(nome):
     print(f'{ind} = {letra}')           = forma de iterar um array monstrando o valor do indice no objeto iteravel
+    
+
+*** TRABALHANDO COM O METODO RANGE()
+
+for i in range(10) = quando se usa o range com apenas um parametro, este parametro e entendido pelo range como um valor de parada, ou seja, o loop se repetira ate o valor que 			     esta no parametro
+
+
+for i in range(1,10) = quando se usa o range com dois parametros, o primeiro parametro informa o valor do indice no inicio do loop, ou seja, o indice inicia com o mesmo valor 			       passado no primeiro parametro 
+
+for num in range(2,10,2) = quando se usa o range com tres parametros, o primeiro parametro representa o valor de inicio do indice, o segundo parametro representa o valor de 				   parada do loop e o terceiro parametro representa o valor de salto, ou seja, de quantas em quantas posicoes do indice ele vai iterar.
+
+for n in range(10,1,-1) = forma de exibicao do range com valores em ordem inversa
+
+
+***** estrutura de repeticao while ****
+
+
+
+
+
