@@ -276,7 +276,16 @@ for n in range(10,1,-1) = forma de exibicao do range com valores em ordem invers
 
 ***** estrutura de repeticao while ****
 
+var = 0 
+while var <= 10:  = forma de iteracao em loop com o while 
+   codigo
+   var += 1
+   
+   
+   
 
+  
+  
 
 
 
