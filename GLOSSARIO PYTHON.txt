@@ -144,6 +144,7 @@ from nome_lib import nome_funcao = este comando importa uma funcao especifica de
 import math: o modulo math contem metodos para calculos matematicos
 
 math.sqrt(num) = este metodo retorna a raiz quadrada do valor da variavel passada como parametro
+	OBS:. se a saida for um numeros float muito grande (4.253658974), pode-se determinar a quantidade de casas decimais apresentada(math.sqrt(var):.2f)
 
 math.ceil(num) = este metodo retorna o numero arredondado sempre para o primeiro valor inteiro para cima
 
