@@ -283,6 +283,20 @@ while var <= 10:  = forma de iteracao em loop com o while
    var += 1
    
    
+****** TRABALHANDO COM LISTAS EM PYTHON ******
+
+nome_lista = []  -> atribui um dado do tipo lista a uma variavel
+
+nome_lista = list('str') = o metodo list() converte a string passada como parametro ou dado passado como parametro em uma lista para dentro da variavel
+
+nome_lista.sort() = o metodo sort() serve para colocar os elementos da lista em ordem, alfabetica se for uma lista de strings, crescente so for uma lista numerica
+
+
+
+
+
+
+   
    
 
   
